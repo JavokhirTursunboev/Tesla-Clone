@@ -99,6 +99,7 @@ section .buttons a:first-child {
 
 aside {
   position: fixed;
+  transition: right .4s ease;
   width: 320px;
   right: -320px;
   background-color: #fff;
@@ -107,7 +108,7 @@ aside {
   height: 100vh;
   z-index: 4;
 }
-aside .active{
+aside.active {
   right: 0;
 }
 aside a {
@@ -137,6 +138,6 @@ aside .close {
   position: fixed;
   backdrop-filter: blur(5px);
 }
-.backdrop active{
-  display:block;
+.backdrop.active {
+  display: block;
 }
