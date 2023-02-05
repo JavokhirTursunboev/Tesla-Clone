@@ -22,36 +22,3 @@ document.querySelector('.backdrop').addEventListener("click", (e)=>{
 })
 
 
-let models = document.getElementById('bmodels')
-let model3 = document.getElementById("bmodel3");
-let modelx = document.getElementById("bmodelx");
-let modely = document.getElementById("bmodely");
-let roof = document.getElementById("broof");
-let panel = document.getElementById("bpanel");
-
-
-let s = document.getElementById('models')
-let m3 = document.getElementById('model3')
-let x = document.getElementById('modelx')
-let y = document.getElementById('modely')
-let ro = document.getElementById('roof')
-let pan = document.getElementById('panel')
-
-models.addEventListener('click', function(){
-  window.scrollTo(0, s.offsetTop)
-})
-model3.addEventListener('click', function(){
-  window.scrollTo(0, m3.offsetTop)
-})
-modelx.addEventListener('click', function(){
-  window.scrollTo(0, x.offsetTop)
-})
-modely.addEventListener('click', function(){
-  window.scrollTo(0, y.offsetTop)
-})
-roof.addEventListener('click', function(){
-  window.scrollTo(0, ro.offsetTop)
-})
-panel.addEventListener('click', function(){
-  window.scrollTo(0, pan.offsetTop)
-})
