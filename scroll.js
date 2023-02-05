@@ -29,5 +29,7 @@ document.addEventListener("scroll", () => {
     }
   });
 
+ 
+
   document.lastScrollPosition = window.pageYOffset;
 });

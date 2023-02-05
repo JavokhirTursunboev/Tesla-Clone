@@ -69,6 +69,12 @@ section .content {
   display: grid;
   grid-template-rows: min-content auto min-content;
 }
+
+@media (min-width: 440px) {
+  section .content {
+    opacity: 1;
+  }
+}
 section.active .content{
   opacity: 1;
 }
